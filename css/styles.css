@@ -10,6 +10,15 @@ html, body {
     overflow: hidden;
 }
 
+.comingsoon {
+  margin-top: -50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  
+}
+
 .landing {
     position: relative;
     background-image: url(../img/DSC_0390.jpg);
@@ -43,7 +52,7 @@ html, body {
 }
 
 .countdown {
-    font-size: 50px;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,11 +62,11 @@ html, body {
 .countdown div {
     padding: 20px;
     border: 1px solid #ffffff;
-    border-radius: 10px;
+    border-radius: 30px;
     font-size: 50px;
     margin: 5px;
     opacity: 1;
-    width: 100px;
+    width: 150px;
     background: #000;
 }
 
@@ -79,11 +88,11 @@ html, body {
     }
   
     .landing h1 {
-      font-size: 40px;
+      font-size: 20px;
     }
   
     .countdown {
-      font-size: 30px;
+      font-size: 40px;
       flex-direction: column;
     }
   
@@ -96,6 +105,11 @@ html, body {
       width: 30%;
       padding: 10px;
     }
+    
+    .comingsoon {
+      margin-top: 0px;      
+    }
+    
   }
   
   
