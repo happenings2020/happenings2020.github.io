@@ -12,7 +12,8 @@
 html, body {
     margin: 0;
     font-family: 'Odibee Sans', cursive;    
-    background-color: var(--dark-color);    
+    background-color: var(--dark-color);
+    color: #fff;    
 }
 
 a {
@@ -24,6 +25,7 @@ footer {
   background-color: var(--dark-color);
   color: #fff;
 }
+
 
 .showcase {
   width: 100%;
@@ -47,8 +49,9 @@ footer {
 
 .showcase-top {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   height: 90px;
+  color: #fff;
 }
 
 .showcase-top a {
