@@ -81,3 +81,13 @@
     right: 30px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .content{
+    &__title {
+      font-size: 25px;
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+}
