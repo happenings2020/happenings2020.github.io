@@ -13,8 +13,6 @@ export default function Nav() {
             alt="Logo"
             ></img>
             </li>
-            <li><a className="nav l1" href="#">link1</a></li>
-            <li><a className="nav l1" href="#">link1</a></li>            
         </ul>
     </div>
   );
