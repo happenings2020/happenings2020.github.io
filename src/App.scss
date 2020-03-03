@@ -16,9 +16,17 @@ ul {
 }
 
 li {
+  display: inline;
+}
+
+.left {
   float: left;
 }
 
+.right {
+  float: right;
+  padding: 26px 20px;
+}
 
 li .nav {
   display: block;
@@ -32,3 +40,15 @@ li a:hover {
   background-color: #333;
 }
 
+.nav-register {
+  background-color: #e50914;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  padding: 11px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  z-index: 1;
+}
