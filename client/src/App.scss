@@ -1,8 +1,34 @@
 .app {
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 h2{
   padding-left: 55px;
   color: #fff;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  ;
+}
+
+li {
+  float: left;
+}
+
+
+li .nav {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #333;
+}
+
