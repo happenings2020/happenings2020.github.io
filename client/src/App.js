@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Slider from './components/NetflixSlider'
 import './App.scss'
-import 'bootstrap/dist/css/bootstrap.min.css'
 import Nav from './components/Navbar/Nav'
 
 const elite = [
@@ -164,10 +163,8 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <nav>
-          <Nav/>
-        </nav>
-        
+        <Nav />
+
         <h2>Elite</h2>
         <Slider>
           {elite.map(movie => (
