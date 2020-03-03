@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import Slider from './components/NetflixSlider'
 import './App.scss'
 import Nav from './components/Navbar/Nav'
+import Footer from './components/Footer/Footer'
 
 const elite = [
   {
     id: 1,
     image: '/images/slide1.jpg',
     imageBg: '/images/slide1b.webp',
-    title: 'The Crown'
+    title: 'The Crown',
   },
   {
     id: 2,
@@ -192,6 +193,8 @@ class App extends Component {
             <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
           ))}
         </Slider>
+
+        <Footer />
       </div>
     );
   }

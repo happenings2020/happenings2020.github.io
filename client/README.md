@@ -16,4 +16,4 @@ Builds the app for production to the `build` folder.<br />
 
 #### Social Links
 - [Facebook](https://www.facebook.com/gechappenings/)
-- [Instagram](https://www.instagram.com/gechappenings/?hl=en)
+- [Instagram](https://www.instagram.com/gechappenings/)

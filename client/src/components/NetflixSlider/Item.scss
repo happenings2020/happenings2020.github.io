@@ -1,5 +1,5 @@
 .item {
-  flex: 0 0 19.7%;
+  flex: 0 0 29.7%;
   transition: transform 300ms ease 100ms;
   margin: 0 2px;
   position: relative;
@@ -13,6 +13,6 @@
 
 @media only screen and (max-width: 600px) {
   .item{
-    flex: 0 0 80%;
+    flex: 0 0 100%;
   }
 }
