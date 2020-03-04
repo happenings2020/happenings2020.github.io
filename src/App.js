@@ -7,32 +7,32 @@ import Footer from './components/Footer/Footer'
 const elite = [
   {
     id: 1,
-    image: '/images/slide1.jpg',
-    imageBg: '/images/slide1b.webp',
+    image: '/images/thecrown.png',
+    imageBg: '/images/thecrown.png',
     title: 'The Crown',
   },
   {
     id: 2,
-    image: '/images/slide2.jpg',
-    imageBg: '/images/slide2b.webp',
+    image: '/images/thewalkingdead.png',
+    imageBg: '/images/thewalkingdead.png',
     title: 'The Walking Dead'
   },
   {
     id: 3,
-    image: '/images/slide3.jpg',
-    imageBg: '/images/slide3b.webp',
+    image: '/images/rhtymflow.png',
+    imageBg: '/images/rhtymflow.png',
     title: 'Rhythm + Flow',
   },
   {
     id: 4,
-    image: '/images/slide4.jpg',
-    imageBg: '/images/slide4b.webp',
+    image: '/images/peakyblinders.png',
+    imageBg: '/images/peakyblinders.png',
     title: 'Peaky Blinders'
   },
   {
     id: 5,
-    image: '/images/slide5.jpg',
-    imageBg: '/images/slide5b.webp',
+    image: '/images/sacredgames.png',
+    imageBg: '/images/sacredgames.png',
     title: 'Sacred Games'
   }
 ];
@@ -40,38 +40,38 @@ const elite = [
 const premium = [
   {
     id: 1,
-    image: '/images/slide1.jpg',
-    imageBg: '/images/slide1b.webp',
+    image: '/images/nobodyspeak.png',
+    imageBg: '/images/nobodyspeak.png',
     title: 'Nobody Speak: Trials of the free passes'
   },
   {
     id: 2,
-    image: '/images/slide2.jpg',
-    imageBg: '/images/slide2b.webp',
+    image: '/images/thevikings.png',
+    imageBg: '/images/thevikings.png',
     title: 'The Vikings'
   },
   {
     id: 3,
-    image: '/images/slide3.jpg',
-    imageBg: '/images/slide3b.webp',
+    image: '/images/westside.png',
+    imageBg: '/images/westside.png',
     title: 'Westside',
   },
   {
     id: 4,
-    image: '/images/slide4.jpg',
-    imageBg: '/images/slide4b.webp',
+    image: '/images/alteredcarbon.png',
+    imageBg: '/images/alteredcarbon.png',
     title: 'Altered Carbon'
   },
   {
     id: 5,
-    image: '/images/slide5.jpg',
-    imageBg: '/images/slide5b.webp',
+    image: '/images/moneyheist.png',
+    imageBg: '/images/moneyheist.png',
     title: 'Money Heist'
   },
   {
     id: 6,
-    image: '/images/slide5.jpg',
-    imageBg: '/images/slide5b.webp',
+    // image: '/images/slide5.jpg',
+    // imageBg: '/images/slide5b.webp',
     title: 'Tug Of War'
   }
 ];
@@ -79,38 +79,38 @@ const premium = [
 const standard = [
   {
     id: 1,
-    image: '/images/slide1.jpg',
-    imageBg: '/images/slide1b.webp',
+    image: '/images/pumpingiron.png',
+    imageBg: '/images/pumpingiron.png',
     title: 'Pumping Iron'
   },
   {
     id: 2,
-    image: '/images/slide2.jpg',
-    imageBg: '/images/slide2b.webp',
+    image: '/images/suits.png',
+    imageBg: '/images/suits.png',
     title: 'Suits'
   },
   {
     id: 3,
-    image: '/images/slide3.jpg',
-    imageBg: '/images/slide3b.webp',
+    image: '/images/talesbylight.png',
+    imageBg: '/images/talesbylight.png',
     title: 'Tales By Light',
   },
   {
     id: 4,
-    image: '/images/slide4.jpg',
-    imageBg: '/images/slide4b.webp',
+    // image: '/images/slide4.jpg',
+    // imageBg: '/images/slide4b.webp',
     title: 'Futsal'
   },
   {
     id: 5,
-    image: '/images/slide5.jpg',
-    imageBg: '/images/slide5b.webp',
+    // image: '/images/slide5.jpg',
+    // imageBg: '/images/slide5b.webp',
     title: 'Control Cricket'
   },
   {
     id: 6,
-    image: '/images/slide5.jpg',
-    imageBg: '/images/slide5b.webp',
+    // image: '/images/slide5.jpg',
+    // imageBg: '/images/slide5b.webp',
     title: 'Badminton'
   }
 ];
@@ -118,44 +118,44 @@ const standard = [
 const basic = [
   {
     id: 1,
-    image: '/images/slide1.jpg',
-    imageBg: '/images/slide1b.webp',
+    image: '/images/brahmannaman.png',
+    imageBg: '/images/brahmannaman.png',
     title: 'Brahman Naman'
   },
   {
     id: 2,
-    image: '/images/slide2.jpg',
-    imageBg: '/images/slide2b.webp',
+    image: '/images/glowup.png',
+    imageBg: '/images/glowup.png',
     title: 'Glow Up'
   },
   {
     id: 3,
-    image: '/images/slide3.jpg',
-    imageBg: '/images/slide3b.webp',
+    image: '/images/americanmeme.png',
+    imageBg: '/images/americanmeme.png',
     title: 'American Name',
   },
   {
     id: 4,
-    image: '/images/slide4.jpg',
-    imageBg: '/images/slide4b.webp',
+    // image: '/images/slide4.jpg',
+    // imageBg: '/images/slide4b.webp',
     title: 'Table Tennis'
   },
   {
     id: 5,
-    image: '/images/slide5.jpg',
-    imageBg: '/images/slide5b.webp',
+    // image: '/images/slide5.jpg',
+    // imageBg: '/images/slide5b.webp',
     title: 'PUBG'
   },
   {
     id: 6,
-    image: '/images/slide5.jpg',
-    imageBg: '/images/slide5b.webp',
+    // image: '/images/slide5.jpg',
+    // imageBg: '/images/slide5b.webp',
     title: 'FIFA'
   },
   {
     id: 7,
-    image: '/images/slide5.jpg',
-    imageBg: '/images/slide5b.webp',
+    // image: '/images/slide5.jpg',
+    // imageBg: '/images/slide5b.webp',
     title: 'Carrom'
   }
 ];
