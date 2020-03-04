@@ -17,3 +17,10 @@
     color: white;
   }
 }
+
+//gives more room to click->expand
+@media (min-width: 800px) {
+  .show-details-button {
+    height: 50%;
+  }
+}
