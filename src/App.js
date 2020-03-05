@@ -114,7 +114,7 @@ const standard = [
     // image: '/images/slide4.jpg',
     // imageBg: '/images/slide4b.webp',
     title: 'Futsal',
-    info:''
+    info:'Futsal'
   },
   {
     id: 5,
