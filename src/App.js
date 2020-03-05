@@ -80,8 +80,8 @@ const premium = [
   },
   {
     id: 6,
-    // image: '/images/slide5.jpg',
-    // imageBg: '/images/slide5b.webp',
+    image: '/images/tugofwar.jpg',
+    imageBg: '/images/tugofwar.jpg',
     title: 'Tug Of War',
     info: 'Odha ekmekank LMAO'
   }
@@ -111,22 +111,22 @@ const standard = [
   },
   {
     id: 4,
-    // image: '/images/slide4.jpg',
-    // imageBg: '/images/slide4b.webp',
+    image: '/images/futsal.jpg',
+    imageBg: '/images/futsal.jpg',
     title: 'Futsal',
     info: 'Futsal'
   },
   {
     id: 5,
-    // image: '/images/slide4.jpg',
-    // imageBg: '/images/slide5b.webp',
+    image: '/images/controlcricket.jpg',
+    imageBg: '/images/controlcricket.jpg',
     title: 'Control Cricket',
     info: 'Cricket Khelat'
   },
   {
     id: 6,
-    // image: '/images/slide5.jpg',
-    // imageBg: '/images/slide5b.webp',
+    image: '/images/badminton.jpg',
+    imageBg: '/images/badminton.jpg',
     title: 'Badminton',
     info: 'Bad min ton'
   }
@@ -156,15 +156,15 @@ const basic = [
   },
   {
     id: 4,
-    // image: '/images/slide4.jpg',
-    // imageBg: '/images/slide4b.webp',
+    image: '/images/tabletennis.jpg',
+    imageBg: '/images/tabletennis.jpg',
     title: 'Table Tennis',
     info: 'Tennis Table'
   },
   {
     id: 5,
-    // image: '/images/slide5.jpg',
-    // imageBg: '/images/slide5b.webp',
+    image: '/images/pubg.jpg',
+    imageBg: '/images/pubg.jpg',
     title: 'PUBG',
     info: 'Enemies Ahead'
   },
@@ -177,8 +177,8 @@ const basic = [
   },
   {
     id: 7,
-    // image: '/images/slide5.jpg',
-    // imageBg: '/images/slide5b.webp',
+    image: '/images/carrom.jpg',
+    imageBg: '/images/carrom.jpg',
     title: 'Carrom',
     info: 'Guliyo'
   }
