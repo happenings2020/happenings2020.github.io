@@ -7,3 +7,5 @@
   color: #E50914;
   transition: all 0.3s ease-in-out;
 }
+
+a, a:hover, a:active, a:visited { color: white; }

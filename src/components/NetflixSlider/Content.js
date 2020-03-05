@@ -15,7 +15,8 @@ const Content = ({ movie, onClose }) => (
       <div className="content__area__container">
         <div className="content__title">{movie.title}</div>
         <div className="content__description">
-          {movie.info || "lorem ipsum"}
+        {movie.info || "lorem ipsum"}<br/><br/>
+          <a href="#">Brochure</a>
         </div>
       </div>
       <button className="content__close" onClick={onClose}>
