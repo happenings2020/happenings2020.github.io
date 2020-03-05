@@ -7,32 +7,32 @@ import Footer from './components/Footer/Footer'
 const elite = [
   {
     id: 1,
-    image: '/images/thecrown.png',
-    imageBg: '/images/thecrown.png',
+    image: '/images/thecrown.jpg',
+    imageBg: '/images/thecrown.jpg',
     title: 'The Crown',
   },
   {
     id: 2,
-    image: '/images/thewalkingdead.png',
-    imageBg: '/images/thewalkingdead.png',
+    image: '/images/thewalkingdead.jpg',
+    imageBg: '/images/thewalkingdead.jpg',
     title: 'The Walking Dead'
   },
   {
     id: 3,
-    image: '/images/rhtymflow.png',
-    imageBg: '/images/rhtymflow.png',
+    image: '/images/rhtymflow.jpg',
+    imageBg: '/images/rhtymflow.jpg',
     title: 'Rhythm + Flow',
   },
   {
     id: 4,
-    image: '/images/peakyblinders.png',
-    imageBg: '/images/peakyblinders.png',
+    image: '/images/peakyblinders.jpg',
+    imageBg: '/images/peakyblinders.jpg',
     title: 'Peaky Blinders'
   },
   {
     id: 5,
-    image: '/images/sacredgames.png',
-    imageBg: '/images/sacredgames.png',
+    image: '/images/sacredgames.jpg',
+    imageBg: '/images/sacredgames.jpg',
     title: 'Sacred Games'
   }
 ];
@@ -40,32 +40,32 @@ const elite = [
 const premium = [
   {
     id: 1,
-    image: '/images/nobodyspeak.png',
-    imageBg: '/images/nobodyspeak.png',
+    image: '/images/nobodyspeak.jpg',
+    imageBg: '/images/nobodyspeak.jpg',
     title: 'Nobody Speak: Trials of the free passes'
   },
   {
     id: 2,
-    image: '/images/thevikings.png',
-    imageBg: '/images/thevikings.png',
+    image: '/images/thevikings.jpg',
+    imageBg: '/images/thevikings.jpg',
     title: 'The Vikings'
   },
   {
     id: 3,
-    image: '/images/westside.png',
-    imageBg: '/images/westside.png',
+    image: '/images/westside.jpg',
+    imageBg: '/images/westside.jpg',
     title: 'Westside',
   },
   {
     id: 4,
-    image: '/images/alteredcarbon.png',
-    imageBg: '/images/alteredcarbon.png',
+    image: '/images/alteredcarbon.jpg',
+    imageBg: '/images/alteredcarbon.jpg',
     title: 'Altered Carbon'
   },
   {
     id: 5,
-    image: '/images/moneyheist.png',
-    imageBg: '/images/moneyheist.png',
+    image: '/images/moneyheist.jpg',
+    imageBg: '/images/moneyheist.jpg',
     title: 'Money Heist'
   },
   {
@@ -79,20 +79,20 @@ const premium = [
 const standard = [
   {
     id: 1,
-    image: '/images/pumpingiron.png',
-    imageBg: '/images/pumpingiron.png',
+    image: '/images/pumpingiron.jpg',
+    imageBg: '/images/pumpingiron.jpg',
     title: 'Pumping Iron'
   },
   {
     id: 2,
-    image: '/images/suits.png',
-    imageBg: '/images/suits.png',
+    image: '/images/suits.jpg',
+    imageBg: '/images/suits.jpg',
     title: 'Suits'
   },
   {
     id: 3,
-    image: '/images/talesbylight.png',
-    imageBg: '/images/talesbylight.png',
+    image: '/images/talesbylight.jpg',
+    imageBg: '/images/talesbylight.jpg',
     title: 'Tales By Light',
   },
   {
@@ -118,20 +118,20 @@ const standard = [
 const basic = [
   {
     id: 1,
-    image: '/images/brahmannaman.png',
-    imageBg: '/images/brahmannaman.png',
+    image: '/images/brahmannaman.jpg',
+    imageBg: '/images/brahmannaman.jpg',
     title: 'Brahman Naman'
   },
   {
     id: 2,
-    image: '/images/glowup.png',
-    imageBg: '/images/glowup.png',
+    image: '/images/glowup.jpg',
+    imageBg: '/images/glowup.jpg',
     title: 'Glow Up'
   },
   {
     id: 3,
-    image: '/images/americanmeme.png',
-    imageBg: '/images/americanmeme.png',
+    image: '/images/americanmeme.jpg',
+    imageBg: '/images/americanmeme.jpg',
     title: 'American Name',
   },
   {
