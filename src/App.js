@@ -10,30 +10,35 @@ const elite = [
     image: '/images/thecrown.jpg',
     imageBg: '/images/thecrown.jpg',
     title: 'The Crown',
+    info: 'Mr and Ms Happenings 2020'
   },
   {
     id: 2,
     image: '/images/thewalkingdead.jpg',
     imageBg: '/images/thewalkingdead.jpg',
-    title: 'The Walking Dead'
+    title: 'The Walking Dead',
+    info:'Fashion show'
   },
   {
     id: 3,
     image: '/images/rhtymflow.jpg',
     imageBg: '/images/rhtymflow.jpg',
     title: 'Rhythm + Flow',
+    info:'Battle of Bands'
   },
   {
     id: 4,
     image: '/images/peakyblinders.jpg',
     imageBg: '/images/peakyblinders.jpg',
-    title: 'Peaky Blinders'
+    title: 'Peaky Blinders',
+    info:'Group Dance'
   },
   {
     id: 5,
     image: '/images/sacredgames.jpg',
     imageBg: '/images/sacredgames.jpg',
-    title: 'Sacred Games'
+    title: 'Sacred Games',
+    info:'3rd Degree'
   }
 ];
 
@@ -42,37 +47,43 @@ const premium = [
     id: 1,
     image: '/images/nobodyspeak.jpg',
     imageBg: '/images/nobodyspeak.jpg',
-    title: 'Nobody Speak: Trials of the free passes'
+    title: 'Nobody Speak: Trials of the free passes',
+    info:'Street Play'
   },
   {
     id: 2,
     image: '/images/thevikings.jpg',
     imageBg: '/images/thevikings.jpg',
-    title: 'The Vikings'
+    title: 'The Vikings',
+    info:'Entry Parade'
   },
   {
     id: 3,
     image: '/images/westside.jpg',
     imageBg: '/images/westside.jpg',
     title: 'Westside',
+    info:'Duet Singing'
   },
   {
     id: 4,
     image: '/images/alteredcarbon.jpg',
     imageBg: '/images/alteredcarbon.jpg',
-    title: 'Altered Carbon'
+    title: 'Altered Carbon',
+    info:'Faceoff'
   },
   {
     id: 5,
     image: '/images/moneyheist.jpg',
     imageBg: '/images/moneyheist.jpg',
-    title: 'Money Heist'
+    title: 'Money Heist',
+    info:'Treasure Hunt'
   },
   {
     id: 6,
     // image: '/images/slide5.jpg',
     // imageBg: '/images/slide5b.webp',
-    title: 'Tug Of War'
+    title: 'Tug Of War',
+    info:'Odha ekmekank LMAO'
   }
 ];
 
@@ -81,37 +92,43 @@ const standard = [
     id: 1,
     image: '/images/pumpingiron.jpg',
     imageBg: '/images/pumpingiron.jpg',
-    title: 'Pumping Iron'
+    title: 'Pumping Iron',
+    info:'Bodybuilding'
   },
   {
     id: 2,
     image: '/images/suits.jpg',
     imageBg: '/images/suits.jpg',
-    title: 'Suits'
+    title: 'Suits',
+    info:'Debate'
   },
   {
     id: 3,
     image: '/images/talesbylight.jpg',
     imageBg: '/images/talesbylight.jpg',
     title: 'Tales By Light',
+    info:'Photography'
   },
   {
     id: 4,
     // image: '/images/slide4.jpg',
     // imageBg: '/images/slide4b.webp',
-    title: 'Futsal'
+    title: 'Futsal',
+    info:''
   },
   {
     id: 5,
     // image: '/images/slide5.jpg',
     // imageBg: '/images/slide5b.webp',
-    title: 'Control Cricket'
+    title: 'Control Cricket',
+    info:'Cricket Khelat'
   },
   {
     id: 6,
     // image: '/images/slide5.jpg',
     // imageBg: '/images/slide5b.webp',
-    title: 'Badminton'
+    title: 'Badminton',
+    info:'Bad min ton'
   }
 ];
 
@@ -120,43 +137,50 @@ const basic = [
     id: 1,
     image: '/images/brahmannaman.jpg',
     imageBg: '/images/brahmannaman.jpg',
-    title: 'Brahman Naman'
+    title: 'Brahman Naman',
+    info:'Quiz'
   },
   {
     id: 2,
     image: '/images/glowup.jpg',
     imageBg: '/images/glowup.jpg',
-    title: 'Glow Up'
+    title: 'Glow Up',
+    info:'Face Painting'
   },
   {
     id: 3,
     image: '/images/americanmeme.jpg',
     imageBg: '/images/americanmeme.jpg',
     title: 'American Name',
+    info:'Meme'
   },
   {
     id: 4,
     // image: '/images/slide4.jpg',
     // imageBg: '/images/slide4b.webp',
-    title: 'Table Tennis'
+    title: 'Table Tennis',
+    info:'Tennis Table'
   },
   {
     id: 5,
     // image: '/images/slide5.jpg',
     // imageBg: '/images/slide5b.webp',
-    title: 'PUBG'
+    title: 'PUBG',
+    info:'Enemies Ahead'
   },
   {
     id: 6,
     // image: '/images/slide5.jpg',
     // imageBg: '/images/slide5b.webp',
-    title: 'FIFA'
+    title: 'FIFA',
+    info:'Foot and ball'
   },
   {
     id: 7,
     // image: '/images/slide5.jpg',
     // imageBg: '/images/slide5b.webp',
-    title: 'Carrom'
+    title: 'Carrom',
+    info:'Guliyo'
   }
 ];
 
