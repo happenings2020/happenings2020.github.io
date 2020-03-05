@@ -26,6 +26,12 @@
     font-size: 40px;
     font-family: Helvetica, Arial, sans-serif;
     margin: 0;
+    cursor: crosshair;
+  }
+
+  h3:hover {
+    color: #e50914;
+    transition: color 0.3s ease-in-out;
   }
 
   h3 span {
@@ -55,10 +61,10 @@
   .footer-center {
     width: 35%;
 
-    p{
+    p {
       line-height: 28px;
 
-      img{
+      img {
         margin-bottom: 0;
         margin-right: 5px;
         fill: wheat;
@@ -144,7 +150,7 @@
     margin-bottom: 5px;
   }
 
-  .footer-icons a:hover{
+  .footer-icons a:hover {
     background-color: #92999f;
   }
 }
