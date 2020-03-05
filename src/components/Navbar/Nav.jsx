@@ -18,9 +18,9 @@ export default function Nav() {
         </li>
         <li>
           <div className="right" style={{ padding: 0, marginTop:"10px", marginRight:"10px" }}>
-            <button className="nav-register" >
+            <a className="nav-register" href="https://forms.gle/NAg4XCbaH5MiP3ze9" >
               Register
-            </button>
+            </a>
           </div>
         </li>
       </ul>

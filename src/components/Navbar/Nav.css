@@ -1,8 +1,8 @@
-.right button{
+.right a{
  font-weight: 600;   
 }
 
-.right button:hover {
+.right a:hover {
   background-color: #fff;
   color: #E50914;
   transition: all 0.3s ease-in-out;
