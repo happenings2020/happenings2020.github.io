@@ -17,7 +17,7 @@ const Content = ({ movie, onClose }) => (
     </div>
     <div className="content__area">
       <div className="content__area__container">
-        <div className="content__title">{movie.info}</div>
+        <div className="content__title">{movie.infoT}</div>
         <div className="content__description">
           {/* {movie.info || "lorem ipsum"} <br /> <br /> */}
 

@@ -12,35 +12,40 @@ const elite = [
     image: '/images/thecrown.jpg',
     imageBg: '/images/thecrown.jpg',
     title: 'The Crown',
-    info: 'Mr and Ms Happenings 2020'
+    infoT: 'Mr and Ms Happenings',
+    info: ['Mr and Ms Happenings 2020', 'lmao', 'more lmao']
   },
   {
     id: 2,
     image: '/images/thewalkingdead.jpg',
     imageBg: '/images/thewalkingdead.jpg',
     title: 'The Walking Dead',
-    info: 'Fashion show'
+    infoT:'Fashion show',
+    info: ['Fashion show']
   },
   {
     id: 3,
     image: '/images/rhtymflow.jpg',
     imageBg: '/images/rhtymflow.jpg',
     title: 'Rhythm + Flow',
-    info: 'Battle of Bands'
+    infoT:'Battle of Bands',
+    info: ['Battle of Bands']
   },
   {
     id: 4,
     image: '/images/peakyblinders.jpg',
     imageBg: '/images/peakyblinders.jpg',
     title: 'Peaky Blinders',
-    info: 'Group Dance'
+    infoT:'Group Dance',
+    info: ['Group Dance']
   },
   {
     id: 5,
     image: '/images/sacredgames.jpg',
     imageBg: '/images/sacredgames.jpg',
     title: 'Sacred Games',
-    info: '3rd Degree'
+    infoT:'3rd Degree',
+    info: ['3rd Degree']
   }
 ];
 
@@ -50,42 +55,48 @@ const premium = [
     image: '/images/nobodyspeak.jpg',
     imageBg: '/images/nobodyspeak.jpg',
     title: 'Nobody Speak: Trials of the free passes',
-    info: 'Street Play'
+    infoT:'Street Play',
+    info: ['Street Play']
   },
   {
     id: 2,
     image: '/images/thevikings.jpg',
     imageBg: '/images/thevikings.jpg',
     title: 'The Vikings',
-    info: 'Entry Parade'
+    infoT:'Entry Parade',
+    info: ['Entry Parade']
   },
   {
     id: 3,
     image: '/images/westside.jpg',
     imageBg: '/images/westside.jpg',
     title: 'Westside',
-    info: 'Duet Singing'
+    infoT:'Duet Singing',
+    info: ['Duet Singing']
   },
   {
     id: 4,
     image: '/images/alteredcarbon.jpg',
     imageBg: '/images/alteredcarbon.jpg',
     title: 'Altered Carbon',
-    info: 'Faceoff'
+    infoT:'Faceoff',
+    info: ['Faceoff']
   },
   {
     id: 5,
     image: '/images/moneyheist.jpg',
     imageBg: '/images/moneyheist.jpg',
     title: 'Money Heist',
-    info: 'Treasure Hunt'
+    infoT:'Treasure Hunt',
+    info: ['Treasure Hunt']
   },
   {
     id: 6,
     image: '/images/tugofwar.jpg',
     imageBg: '/images/tugofwar.jpg',
     title: 'Tug Of War',
-    info: 'Odha ekmekank LMAO'
+    infoT:'Tug of War',
+    info: ['Odha ekmekank LMAO']
   }
 ];
 
@@ -95,42 +106,48 @@ const standard = [
     image: '/images/pumpingiron.jpg',
     imageBg: '/images/pumpingiron.jpg',
     title: 'Pumping Iron',
-    info: 'Bodybuilding'
+    infoT:'Bodybuilding',
+    info: ['Bodybuilding']
   },
   {
     id: 2,
     image: '/images/suits.jpg',
     imageBg: '/images/suits.jpg',
     title: 'Suits',
-    info: 'Debate'
+    infoT:'Debate',
+    info: ['Debate']
   },
   {
     id: 3,
     image: '/images/talesbylight.jpg',
     imageBg: '/images/talesbylight.jpg',
     title: 'Tales By Light',
-    info: 'Photography'
+    infoT:'Photography',
+    info: ['Photography']
   },
   {
     id: 4,
     image: '/images/futsal.jpg',
     imageBg: '/images/futsal.jpg',
     title: 'Futsal',
-    info: 'Futsal'
+    infoT:'Futsal',
+    info: ['Futsal']
   },
   {
     id: 5,
     image: '/images/controlcricket.jpg',
     imageBg: '/images/controlcricket.jpg',
     title: 'Control Cricket',
-    info: 'Cricket Khelat'
+    infoT:'Cricket Khelat',
+    info: ['Cricket Khelat']
   },
   {
     id: 6,
     image: '/images/badminton.jpg',
     imageBg: '/images/badminton.jpg',
     title: 'Badminton',
-    info: 'Bad min ton'
+    infoT:'Bad min ton',
+    info: ['Bad min ton']
   }
 ];
 
@@ -140,49 +157,56 @@ const basic = [
     image: '/images/brahmannaman.jpg',
     imageBg: '/images/brahmannaman.jpg',
     title: 'Brahman Naman',
-    info: 'Quiz'
+    infoT:'Quiz',
+    info: ['Quiz']
   },
   {
     id: 2,
     image: '/images/glowup.jpg',
     imageBg: '/images/glowup.jpg',
     title: 'Glow Up',
-    info: 'Face Painting'
+    infoT:'Face Painting',
+    info: ['Face Painting']
   },
   {
     id: 3,
     image: '/images/americanmeme.jpg',
     imageBg: '/images/americanmeme.jpg',
     title: 'American Name',
-    info: 'Meme'
+    infoT: 'Meme',
+    info: ['Meme']
   },
   {
     id: 4,
     image: '/images/tabletennis.jpg',
     imageBg: '/images/tabletennis.jpg',
     title: 'Table Tennis',
-    info: 'Tennis Table'
+    infoT:'Tennis Table',
+    info: ['Tennis Table']
   },
   {
     id: 5,
     image: '/images/pubg.jpg',
     imageBg: '/images/pubg.jpg',
     title: 'PUBG',
-    info: 'Enemies Ahead'
+    infoT:'Enemies Ahead',
+    info: ['Enemies Ahead']
   },
   {
     id: 6,
     image: '/images/fifa.jpg',
     imageBg: '/images/fifa.jpg',
     title: 'FIFA',
-    info: 'Details of the event'
+    infoT:'Details of the event',
+    info: ['Details of the event']
   },
   {
     id: 7,
     image: '/images/carrom.jpg',
     imageBg: '/images/carrom.jpg',
     title: 'Carrom',
-    info: 'Guliyo'
+    infoT:'Guliyo',
+    info: ['Guliyo']
   }
 ];
 
