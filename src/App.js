@@ -3,6 +3,7 @@ import Slider from './components/NetflixSlider'
 import './App.scss'
 import Nav from './components/Navbar/Nav'
 import Footer from './components/Footer/Footer'
+import Sponsors from './components/Sponsors/Sponsors'
 
 const elite = [
   {
@@ -217,6 +218,8 @@ class App extends Component {
             <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
           ))}
         </Slider>
+
+        <Sponsors />
 
         <Footer />
       </div>
