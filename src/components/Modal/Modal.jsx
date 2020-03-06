@@ -1,6 +1,7 @@
 import React from "react";
 import ReactModal from "react-modal";
 import "./Modal.scss";
+import cross from "../assets/cross.svg";
 
 ReactModal.setAppElement("#root");
 
@@ -9,7 +10,8 @@ class Modal extends React.Component {
     super(props);
     this.state = {
       showModal: false,
-      info: props.info
+      title: props.movie.title,
+      info: props.movie.info
     };
 
     this.handleOpenModal = this.handleOpenModal.bind(this);
@@ -31,10 +33,21 @@ class Modal extends React.Component {
         <ReactModal
           isOpen={this.state.showModal}
           contentLabel="Minimal Modal Example"
-          style={{ overlay: { zIndex: 10 } }}
+          style={{
+            overlay: { zIndex: 10 },
+            content: {
+              backgroundColor: "#212121",
+              color: "#fff"
+            }
+          }}
         >
-          <button onClick={this.handleCloseModal}>Close Modal</button>
-          <p>{this.state.info}</p>
+          <div className="modal-content">
+            <button onClick={this.handleCloseModal}>
+              <img src={cross} alt="" width="40px"/>
+            </button>
+            <h3>{this.state.title}</h3>
+            <div>{this.state.info}</div>
+          </div>
         </ReactModal>
       </div>
     );

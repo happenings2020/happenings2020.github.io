@@ -1,37 +1,62 @@
-.event-modal {
-    button {
-        border: none;
-        background: #e50915;
-        color: #fff;
-        font-size: 1.25rem;
-        border-radius: 5px;
-        padding: 5px;
-        width: 80px;
-        outline: none;
-        position: absolute;
-        bottom: 10vh;
-    }
-
-    button:hover {
-        background: #fff;
-        color: #e50915;
-        border-left: 5px solid #e50915;
-        cursor: grab;
-        
-        transition: background 0.3s ease-in-out;
-        transition: color 0.3s ease-in-out;
-        transition: border-left 0.3s ease-out;
-
-    }
+.modal-content {
+  h3 {
+    border-bottom: 5px solid #e50915;
 }
 
+  button {
+    border: none;
+    background: #e50915;
+    color: #fff;
+    outline: none;
+    float: right;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 0;
 
-@media only screen and (max-width: 600px) {
-    .event-modal {
-        button {
-            font-size: 1.1rem;
-            width: 70px;
-            bottom: 5vh;
-        }
+    img {
+      height: 35px;
+      width: 35px;
     }
   }
+}
+
+.event-modal {
+  button {
+    border: none;
+    background: #e50915;
+    color: #fff;
+    outline: none;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+
+    position: absolute;
+    bottom: 10vh;
+  }
+
+  button:hover {
+    background: #fff;
+    color: #e50915;
+    border-left: 5px solid #e50915;
+    cursor: grab;
+
+    transition: background 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out;
+    transition: border-left 0.3s ease-out;
+  }
+
+  .modal-content {
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .event-modal {
+    button {
+      font-size: 1.1rem;
+      width: 70px;
+      bottom: 5vh;
+    }
+  }
+}

@@ -21,7 +21,7 @@ const Content = ({ movie, onClose }) => (
         <div className="content__description">
           {/* {movie.info || "lorem ipsum"} <br /> <br /> */}
 
-          <Modal info={movie.info} />
+          <Modal movie={movie} />
 
         </div>
 
