@@ -172,8 +172,8 @@ const basic = [
   },
   {
     id: 6,
-    // image: '/images/slide5.jpg',
-    // imageBg: '/images/slide5b.webp',
+    image: '/images/fifa.jpg',
+    imageBg: '/images/fifa.jpg',
     title: 'FIFA',
     info: 'Details of the event'
   },
