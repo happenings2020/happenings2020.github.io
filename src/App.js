@@ -4,7 +4,7 @@ import './App.scss'
 import Nav from './components/Navbar/Nav'
 import Footer from './components/Footer/Footer'
 import Sponsors from './components/Sponsors/Sponsors'
-
+import Location from './components/Location/Location'
 
 const elite = [
   {
@@ -222,7 +222,9 @@ class App extends Component {
 
         <Sponsors />
 
-        
+        <h2>Getting Around</h2>
+
+        <Location />
 
         <Footer />
       </div>

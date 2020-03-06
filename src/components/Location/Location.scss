@@ -1,0 +1,52 @@
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 400px;
+  width: 600px;
+  text-align: center;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 600px;
+  display: inline;
+}
+
+.location-container {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+
+  img {
+    height: 400px;
+    margin-left: 10vw;
+  }
+
+  .location-col {
+    display: inline;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1073px) {
+  .location-container iframe {
+    width: 40vw;
+    left: 0;
+  }
+}
+
+@media (max-width: 815px) {
+    .location-container iframe {
+      width: 90vw;
+      left: 0;
+    }
+  }
+
+@media (max-width: 555px) {
+  .location-container iframe {
+    width: 90vw;
+    left: 0;
+  }
+}
