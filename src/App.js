@@ -13,7 +13,9 @@ const elite = [
     imageBg: '/images/thecrown.jpg',
     title: 'The Crown',
     infoT: 'Mr and Ms Happenings',
-    info: ['Mr and Ms Happenings 2020', 'lmao', 'more lmao']
+    info: ['Rules:-', '# One Team of 1 Male and 1 Female per college.',
+     '# 1st round: Task round follwed by Elimination', '# 2nd round: Intro and Talent round',
+    '# 3rd round: Q&A round', '# Only one helper will be allowed for setup']
   },
   {
     id: 2,
@@ -21,7 +23,8 @@ const elite = [
     imageBg: '/images/thewalkingdead.jpg',
     title: 'The Walking Dead',
     infoT:'Fashion show',
-    info: ['Fashion show']
+    info: ['Rules:-', '# One crew of 2 Models, 2 Helpers, 1 Narrator per college',
+    '# Duration: 10-15 mins including setup time', '# Themes: ', 'Round 1: Horror tales of Netflix', '  Round 2: Open Theme', '# Use of sand, dust, water, fire or ash not allowed' ]
   },
   {
     id: 3,
@@ -29,7 +32,7 @@ const elite = [
     imageBg: '/images/rhtymflow.jpg',
     title: 'Rhythm + Flow',
     infoT:'Battle of Bands',
-    info: ['Battle of Bands']
+    info: ['Rules:-',]
   },
   {
     id: 4,
@@ -37,7 +40,7 @@ const elite = [
     imageBg: '/images/peakyblinders.jpg',
     title: 'Peaky Blinders',
     infoT:'Group Dance',
-    info: ['Group Dance']
+    info: ['Rules:-',]
   },
   {
     id: 5,
@@ -45,7 +48,7 @@ const elite = [
     imageBg: '/images/sacredgames.jpg',
     title: 'Sacred Games',
     infoT:'3rd Degree',
-    info: ['3rd Degree']
+    info: ['Rules:-',]
   }
 ];
 
@@ -56,7 +59,7 @@ const premium = [
     imageBg: '/images/nobodyspeak.jpg',
     title: 'Nobody Speak: Trials of the free passes',
     infoT:'Street Play',
-    info: ['Street Play']
+    info: ['Rules:-',]
   },
   {
     id: 2,
@@ -64,7 +67,7 @@ const premium = [
     imageBg: '/images/thevikings.jpg',
     title: 'The Vikings',
     infoT:'Entry Parade',
-    info: ['Entry Parade']
+    info: ['Rules:-',]
   },
   {
     id: 3,
@@ -72,7 +75,7 @@ const premium = [
     imageBg: '/images/westside.jpg',
     title: 'Westside',
     infoT:'Duet Singing',
-    info: ['Duet Singing']
+    info: ['Rules:-',]
   },
   {
     id: 4,
@@ -80,7 +83,7 @@ const premium = [
     imageBg: '/images/alteredcarbon.jpg',
     title: 'Altered Carbon',
     infoT:'Faceoff',
-    info: ['Faceoff']
+    info: ['Rules:-',]
   },
   {
     id: 5,
@@ -88,7 +91,7 @@ const premium = [
     imageBg: '/images/moneyheist.jpg',
     title: 'Money Heist',
     infoT:'Treasure Hunt',
-    info: ['Treasure Hunt']
+    info: ['Rules:-',]
   },
   {
     id: 6,
@@ -96,7 +99,7 @@ const premium = [
     imageBg: '/images/tugofwar.jpg',
     title: 'Tug Of War',
     infoT:'Tug of War',
-    info: ['Odha ekmekank LMAO']
+    info: ['Rules:-',]
   }
 ];
 
@@ -107,7 +110,7 @@ const standard = [
     imageBg: '/images/pumpingiron.jpg',
     title: 'Pumping Iron',
     infoT:'Bodybuilding',
-    info: ['Bodybuilding']
+    info: ['Rules:-',]
   },
   {
     id: 2,
@@ -115,7 +118,7 @@ const standard = [
     imageBg: '/images/suits.jpg',
     title: 'Suits',
     infoT:'Debate',
-    info: ['Debate']
+    info: ['Rules:-',]
   },
   {
     id: 3,
@@ -123,7 +126,7 @@ const standard = [
     imageBg: '/images/talesbylight.jpg',
     title: 'Tales By Light',
     infoT:'Photography',
-    info: ['Photography']
+    info: ['Rules:-',]
   },
   {
     id: 4,
@@ -131,7 +134,7 @@ const standard = [
     imageBg: '/images/futsal.jpg',
     title: 'Futsal',
     infoT:'Futsal',
-    info: ['Futsal']
+    info: ['Rules:-',]
   },
   {
     id: 5,
@@ -139,7 +142,7 @@ const standard = [
     imageBg: '/images/controlcricket.jpg',
     title: 'Control Cricket',
     infoT:'Cricket Khelat',
-    info: ['Cricket Khelat']
+    info: ['Rules:-',]
   },
   {
     id: 6,
@@ -147,7 +150,7 @@ const standard = [
     imageBg: '/images/badminton.jpg',
     title: 'Badminton',
     infoT:'Bad min ton',
-    info: ['Bad min ton']
+    info: ['Rules:-',]
   }
 ];
 
@@ -158,7 +161,7 @@ const basic = [
     imageBg: '/images/brahmannaman.jpg',
     title: 'Brahman Naman',
     infoT:'Quiz',
-    info: ['Quiz']
+    info: ['Rules:-',]
   },
   {
     id: 2,
@@ -166,7 +169,7 @@ const basic = [
     imageBg: '/images/glowup.jpg',
     title: 'Glow Up',
     infoT:'Face Painting',
-    info: ['Face Painting']
+    info: ['Rules:-',]
   },
   {
     id: 3,
@@ -174,7 +177,7 @@ const basic = [
     imageBg: '/images/americanmeme.jpg',
     title: 'American Name',
     infoT: 'Meme',
-    info: ['Meme']
+    info: ['Rules:-',]
   },
   {
     id: 4,
@@ -182,7 +185,7 @@ const basic = [
     imageBg: '/images/tabletennis.jpg',
     title: 'Table Tennis',
     infoT:'Tennis Table',
-    info: ['Tennis Table']
+    info:['Rules:-',]
   },
   {
     id: 5,
@@ -190,7 +193,7 @@ const basic = [
     imageBg: '/images/pubg.jpg',
     title: 'PUBG',
     infoT:'Enemies Ahead',
-    info: ['Enemies Ahead']
+    info: ['Rules:-',]
   },
   {
     id: 6,
@@ -198,7 +201,7 @@ const basic = [
     imageBg: '/images/fifa.jpg',
     title: 'FIFA',
     infoT:'Details of the event',
-    info: ['Details of the event']
+    info: ['Rules:-',]
   },
   {
     id: 7,
@@ -206,7 +209,7 @@ const basic = [
     imageBg: '/images/carrom.jpg',
     title: 'Carrom',
     infoT:'Guliyo',
-    info: ['Guliyo']
+    info: ['Rules:-',]
   }
 ];
 
