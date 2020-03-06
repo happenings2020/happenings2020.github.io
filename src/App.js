@@ -5,6 +5,7 @@ import Nav from './components/Navbar/Nav'
 import Footer from './components/Footer/Footer'
 import Sponsors from './components/Sponsors/Sponsors'
 
+
 const elite = [
   {
     id: 1,
@@ -220,6 +221,8 @@ class App extends Component {
         </Slider>
 
         <Sponsors />
+
+        
 
         <Footer />
       </div>

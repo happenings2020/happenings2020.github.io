@@ -1,6 +1,6 @@
 .content {
   position: relative;
-  height: 37vw;
+  height: 40vw;
   margin-top: -40px;
 
   &__background,
@@ -98,6 +98,8 @@
 
 @media only screen and (max-width: 600px) {
   .content{
+    height: 45vw;
+
     &__title {
       font-size: 20px;
       color: #fff;
