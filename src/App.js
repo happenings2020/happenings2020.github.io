@@ -117,7 +117,7 @@ const premium = [
     info: ['Rules:-', '➢ One team of 1 boy and 1 girl per college.', '➢ The participants will be undergoing multiple qualifiers round.', 
     '➢ The participants have to qualify each round by cracking the clues physically or mentally depending on the task.', '➢ Each team should have their own 2-wheeler.',
     '➢ Both participants should have helmets, license and follow all the traffic rules.', '➢ Other rules will be exlained on the spot.']
-  }
+  },
   {
     id: 6,
     image: '/images/tugofwar.jpg',
