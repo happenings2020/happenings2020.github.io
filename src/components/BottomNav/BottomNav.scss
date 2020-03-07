@@ -22,12 +22,24 @@
       line-height: 80px;
       padding: 0;
 
+      a {
+        height: 100%;
+        width: 100%;
+        outline: none;
+      }
+
       img {
         text-align: center;
         height: 30px;
       }
 
-      span {
+      p {
+        display: block;
+        position: fixed;
+        bottom: -35px;
+        text-align: center;
+        width: 33.333%;
+        font-size: 1rem;
       }
     }
 

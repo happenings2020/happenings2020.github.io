@@ -11,17 +11,17 @@ function BottomNav() {
       <ul>
         <li>
           <a href="#events">
-            <img src={list} alt="" srcset="" /> <br /> <p>Events</p>
+            <img src={list} alt="" srcset="" /> <p>Events</p>
           </a>
         </li>
         <li>
           <a href="https://forms.gle/NAg4XCbaH5MiP3ze9">
-            <img src={userPlus} alt="" srcset="" /> <br /> <p>Register</p>
+            <img src={userPlus} alt="" srcset="" /> <p>Register</p>
           </a>
         </li>
         <li>
           <a href="#Footer">
-            <img src={badge} alt="" srcset="" /> <br /> <p>Contact</p>
+            <img src={badge} alt="" srcset="" /> <p>Contact</p>
           </a>
         </li>
       </ul>
