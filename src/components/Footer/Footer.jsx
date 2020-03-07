@@ -11,7 +11,7 @@ export class Footer extends PureComponent {
   render() {
     return (
       <div className="footer-container">
-        <footer>
+        <footer id="Footer">
           <div className="footer-left">
             <h3>Happenings</h3>
             <br />

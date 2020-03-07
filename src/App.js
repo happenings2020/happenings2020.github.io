@@ -5,6 +5,7 @@ import Nav from './components/Navbar/Nav'
 import Footer from './components/Footer/Footer'
 import Sponsors from './components/Sponsors/Sponsors'
 import Location from './components/Location/Location'
+import BottomNav from './components/BottomNav/BottomNav'
 
 const elite = [
   {
@@ -192,7 +193,7 @@ class App extends Component {
       <div className="app">
         <Nav />
 
-        <h2>Elite</h2>
+        <h2 id="events">Elite</h2>
         <Slider>
           {elite.map(movie => (
             <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
@@ -227,6 +228,8 @@ class App extends Component {
         <Location />
 
         <Footer />
+
+        <BottomNav />
       </div>
     );
   }

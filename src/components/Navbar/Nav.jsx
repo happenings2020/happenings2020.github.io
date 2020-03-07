@@ -4,7 +4,7 @@ import logo from "./happeningsLogo.png";
 
 export default function Nav() {
   return (
-    <nav style={{ backgroundColor: "#212121" }}>
+    <nav style={{ backgroundColor: "#212121" }} id="Navbar">
       <ul>
         <li className="left">
           <img

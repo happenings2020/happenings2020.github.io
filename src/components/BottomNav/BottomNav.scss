@@ -1,0 +1,46 @@
+.BottomNav {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background: #e50915;
+  z-index: 10;
+  color: #fff;
+  ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: row wrap;
+    // flex-basis: 50%;
+    align-items: center;
+
+    li {
+      width: 50%;
+      margin: 0 auto;
+      font-size: 1.2rem;
+      text-align: center;
+      line-height: 80px;
+      padding: 0;
+
+      img {
+        text-align: center;
+        height: 30px;
+      }
+
+      span {
+      }
+    }
+
+    li:hover {
+      background: #fff;
+      color: #e50915;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+@media (max-width: 555px) {
+  .BottomNav {
+    display: block;
+  }
+}
