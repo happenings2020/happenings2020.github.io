@@ -2,6 +2,7 @@ import React from "react";
 import ReactModal from "react-modal";
 import "./Modal.scss";
 import cross from "../assets/cross.svg";
+import ModalDesc from "./ModalDesc";
 
 ReactModal.setAppElement("#root");
 
@@ -11,6 +12,7 @@ class Modal extends React.Component {
     this.state = {
       showModal: false,
       title: props.movie.title,
+      infoT: props.movie.infoT,
       info: props.movie.info
     };
 
@@ -45,8 +47,13 @@ class Modal extends React.Component {
             <button onClick={this.handleCloseModal}>
               <img src={cross} alt="" width="40px"/>
             </button>
-            <h3>{this.state.title}</h3>
-            <div>{this.state.info}</div>
+            <h3>{this.state.title} ({this.state.infoT}) </h3>
+            <div>
+              {this.state.info.map(inf => (
+              <ModalDesc info={inf} key={Math.random()}></ModalDesc>
+              ))}
+             </div>
+            
           </div>
         </ReactModal>
       </div>
