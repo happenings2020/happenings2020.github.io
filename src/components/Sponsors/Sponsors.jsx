@@ -9,25 +9,25 @@ export default class Sponsors extends Component {
         id: 1,
         name: "Sponsor 1",
         type: "Platinum",
-        image: "/images/placeholder400x300.png"
+        image: "/images/placeholder400x300.webp"
       },
       {
         id: 2,
         name: "Sponsor 2",
         type: "Gold",
-        image: "/images/placeholder400x300.png"
+        image: "/images/placeholder400x300.webp"
       },
       {
         id: 3,
         name: "Sponsor 3",
         type: "Silver",
-        image: "/images/placeholder400x300.png"
+        image: "/images/placeholder400x300.webp"
       },
       {
         id: 4,
         name: "Sponsor 4",
         type: "Bronze",
-        image: "/images/placeholder400x300.png"
+        image: "/images/placeholder400x300.webp"
       }
     ];
 
