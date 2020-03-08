@@ -288,28 +288,28 @@ class App extends Component {
       <div className="app">
         <Nav />
 
-        <h2 id="events">Elite</h2>
+        <h2 id="events">Elite Events</h2>
         <Slider>
           {elite.map(movie => (
             <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
           ))}
         </Slider>
 
-        <h2>Premium</h2>
+        <h2>Premium Events</h2>
         <Slider>
           {premium.map(movie => (
             <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
           ))}
         </Slider>
 
-        <h2>Standard</h2>
+        <h2>Standard Events</h2>
         <Slider>
           {standard.map(movie => (
             <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
           ))}
         </Slider>
 
-        <h2>Basic</h2>
+        <h2>Basic Events</h2>
         <Slider>
           {basic.map(movie => (
             <Slider.Item movie={movie} key={movie.id}>item1</Slider.Item>
