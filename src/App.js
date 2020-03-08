@@ -10,8 +10,8 @@ import BottomNav from './components/BottomNav/BottomNav'
 const elite = [
   {
     id: 1,
-    image: '/images/thecrown.jpg',
-    imageBg: '/images/thecrown.jpg',
+    image: '/images/thecrown.webp',
+    imageBg: '/images/thecrown.webp',
     title: 'The Crown',
     infoT: 'Mr and Ms Happenings',
     info: ['Rules:-', '➢ One Team of 1 Male and 1 Female per college.',
@@ -20,8 +20,8 @@ const elite = [
   },
   {
     id: 2,
-    image: '/images/thewalkingdead.jpg',
-    imageBg: '/images/thewalkingdead.jpg',
+    image: '/images/thewalkingdead.webp',
+    imageBg: '/images/thewalkingdead.webp',
     title: 'The Walking Dead',
     infoT:'Fashion show',
     info: ['Rules:-', '➢ One crew of 2 Models, 2 Helpers, 1 Narrator per college',
@@ -30,8 +30,8 @@ const elite = [
   },
   {
     id: 3,
-    image: '/images/rhtymflow.jpg',
-    imageBg: '/images/rhtymflow.jpg',
+    image: '/images/rhtymflow.webp',
+    imageBg: '/images/rhtymflow.webp',
     title: 'Rhythm + Flow',
     infoT:'Battle of Bands',
     info: ['Rules:-', '➢ Number of Participants: 3-8 and atleast 3 on stage at any given performance', 
@@ -41,8 +41,8 @@ const elite = [
   },
   {
     id: 4,
-    image: '/images/peakyblinders.jpg',
-    imageBg: '/images/peakyblinders.jpg',
+    image: '/images/peakyblinders.webp',
+    imageBg: '/images/peakyblinders.webp',
     title: 'Peaky Blinders',
     infoT:'Group Dance',
     info: ['Rules:-', '➢ Open Theme', '➢ Duration: 4-7 minutes', '➢ Number of participants: 8-10', '➢ Use of any one prop is a must', 
@@ -51,8 +51,8 @@ const elite = [
   },
   {
     id: 5,
-    image: '/images/sacredgames.jpg',
-    imageBg: '/images/sacredgames.jpg',
+    image: '/images/sacredgames.webp',
+    imageBg: '/images/sacredgames.webp',
     title: 'Sacred Games',
     infoT:'3rd Degree',
     info: ['Rules:-', '➢ The participant must sign a consent form before the event begins.', '➢ One participant per college.',
@@ -63,8 +63,8 @@ const elite = [
 const premium = [
   {
     id: 1,
-    image: '/images/nobodyspeak.jpg',
-    imageBg: '/images/nobodyspeak.jpg',
+    image: '/images/nobodyspeak.webp',
+    imageBg: '/images/nobodyspeak.webp',
     title: 'Nobody Speak: Trials of the free passes',
     infoT:'Street Play',
     info: ['Rules:-', '➢ 1  team per college.', '➢ Duration:10 to 12 min', '➢ Participants : Minimum 8 & Maximum 12',
@@ -75,8 +75,8 @@ const premium = [
   },
   {
     id: 2,
-    image: '/images/thevikings.jpg',
-    imageBg: '/images/thevikings.jpg',
+    image: '/images/thevikings.webp',
+    imageBg: '/images/thevikings.webp',
     title: 'The Vikings',
     infoT:'Entry Parade',
     info: ['Rules:-', '➢ Minimum 10 participants (10 free entries rest paid entries )', '➢ Duration 10-12 minutes ',
@@ -85,8 +85,8 @@ const premium = [
   },
   {
     id: 3,
-    image: '/images/westside.jpg',
-    imageBg: '/images/westside.jpg',
+    image: '/images/westside.webp',
+    imageBg: '/images/westside.webp',
     title: 'Westside',
     infoT:'Duet Singing',
     info: ['Rules:-', '➢ Team of 2 participants per college.', '➢ Duration: 7-8 minutes including setup time.', 
@@ -97,8 +97,8 @@ const premium = [
   },
   {
     id: 4,
-    image: '/images/alteredcarbon.jpg',
-    imageBg: '/images/alteredcarbon.jpg',
+    image: '/images/alteredcarbon.webp',
+    imageBg: '/images/alteredcarbon.webp',
     title: 'Altered Carbon',
     infoT:'Faceoff',
     info: ['Rules:-', '➢ Event consists of 3 segments (Dance, Drop the mic, Beat it), each a 1v1 faceoff.', 
@@ -110,8 +110,8 @@ const premium = [
   },
   {
     id: 5,
-    image: '/images/moneyheist.jpg',
-    imageBg: '/images/moneyheist.jpg',
+    image: '/images/moneyheist.webp',
+    imageBg: '/images/moneyheist.webp',
     title: 'Money Heist',
     infoT:'Treasure Hunt',
     info: ['Rules:-', '➢ One team of 1 boy and 1 girl per college.', '➢ The participants will be undergoing multiple qualifiers round.', 
@@ -120,8 +120,8 @@ const premium = [
   },
   {
     id: 6,
-    image: '/images/tugofwar.jpg',
-    imageBg: '/images/tugofwar.jpg',
+    image: '/images/tugofwar.webp',
+    imageBg: '/images/tugofwar.webp',
     title: 'Tug Of War',
     infoT:'Tug of War',
     info: ['Rules:-', '➢ Participants must compulsorily wear sports attire.', '➢ One anchor allowed.', '➢ No gloves allowed.',
@@ -132,8 +132,8 @@ const premium = [
 const standard = [
   {
     id: 1,
-    image: '/images/pumpingiron.jpg',
-    imageBg: '/images/pumpingiron.jpg',
+    image: '/images/pumpingiron.webp',
+    imageBg: '/images/pumpingiron.webp',
     title: 'Pumping Iron',
     infoT:'Bodybuilding',
     info: ['Rules:-', '➢ One athlete from each college.', '➢ Posing trunk is mandatory.', '➢ Athlete must use the body tan cream.', 
@@ -142,8 +142,8 @@ const standard = [
   },
   {
     id: 2,
-    image: '/images/suits.jpg',
-    imageBg: '/images/suits.jpg',
+    image: '/images/suits.webp',
+    imageBg: '/images/suits.webp',
     title: 'Suits',
     infoT:'Debate',
     info: ['Rules:-', '➢ No of participants per college: 2', '➢ Theme: Suits (Netflix TV Series)', '➢ Preliminary round topics would be based on concepts from Suits.', '➢ Round 1: Oxford style debate',
@@ -154,8 +154,8 @@ const standard = [
   },
   {
     id: 3,
-    image: '/images/talesbylight.jpg',
-    imageBg: '/images/talesbylight.jpg',
+    image: '/images/talesbylight.webp',
+    imageBg: '/images/talesbylight.webp',
     title: 'Tales By Light',
     infoT:'Photography',
     info: ['Rules:-', ' ➢ One participant per college.',
@@ -173,8 +173,8 @@ const standard = [
   },
   {
     id: 4,
-    image: '/images/futsal.jpg',
-    imageBg: '/images/futsal.jpg',
+    image: '/images/futsal.webp',
+    imageBg: '/images/futsal.webp',
     title: 'Futsal',
     infoT:'Futsal',
     info: ['Rules:-', '➢ 5- a side tournament with 2 additional substitutes.', '➢ Rolling subs allowed', '➢ 2 playing halves of 7 minutes each...',
@@ -184,8 +184,8 @@ const standard = [
   },
   {
     id: 5,
-    image: '/images/controlcricket.jpg',
-    imageBg: '/images/controlcricket.jpg',
+    image: '/images/controlcricket.webp',
+    imageBg: '/images/controlcricket.webp',
     title: 'Control Cricket',
     infoT:'Control Cricket',
     info: ['Rules:-', '➢ One team per college', '➢  players + 1 substitute', '➢ 1 girl compulsory', '➢ Umpires decision will be final. Unnecessary arguments will lead to disqualification.', 
@@ -193,8 +193,8 @@ const standard = [
   },
   {
     id: 6,
-    image: '/images/badminton.jpg',
-    imageBg: '/images/badminton.jpg',
+    image: '/images/badminton.webp',
+    imageBg: '/images/badminton.webp',
     title: 'Badminton',
     infoT:'Badminton',
     info: ['Rules:-', '➢ The team should comprise of 4 players( 1 girl compulsory).', '➢ Every round will have 2 singles and 1 doubles matches.', "Match 1 - Men's singles", 
@@ -207,8 +207,8 @@ const standard = [
 const basic = [
   {
     id: 1,
-    image: '/images/brahmannaman.jpg',
-    imageBg: '/images/brahmannaman.jpg',
+    image: '/images/brahmannaman.webp',
+    imageBg: '/images/brahmannaman.webp',
     title: 'Brahman Naman',
     infoT:'Quiz',
     info: ['Rules:-', '➢ A preliminary round will be held first', 
@@ -218,8 +218,8 @@ const basic = [
   },
   {
     id: 2,
-    image: '/images/glowup.jpg',
-    imageBg: '/images/glowup.jpg',
+    image: '/images/glowup.webp',
+    imageBg: '/images/glowup.webp',
     title: 'Glow Up',
     infoT:'Face Painting',
     info: ['Rules:-', '➢ A preliminary round will be held first', '➢ Top 4 teams from the prelims will make it to the final stage round', 
@@ -228,8 +228,8 @@ const basic = [
   },
   {
     id: 3,
-    image: '/images/americanmeme.jpg',
-    imageBg: '/images/americanmeme.jpg',
+    image: '/images/americanmeme.webp',
+    imageBg: '/images/americanmeme.webp',
     title: 'American Name',
     infoT: 'Meme',
     info: ['Rules:-', '➢ 2 memes per college', '➢ Template Netflix', '➢ POTUS visit to India', '➢ No restrictions.', '➢ No videos or gifs can be used.',
@@ -237,8 +237,8 @@ const basic = [
   },
   {
     id: 4,
-    image: '/images/tabletennis.jpg',
-    imageBg: '/images/tabletennis.jpg',
+    image: '/images/tabletennis.webp',
+    imageBg: '/images/tabletennis.webp',
     title: 'Table Tennis',
     infoT:'Table Tennis',
     info:['Rules:-', '➢ he team should comprise of 5 people (3 players + 2 substitutes) and should include both boys and girls', '➢ Every round will have 3 singles matches.', 
@@ -248,8 +248,8 @@ const basic = [
   },
   {
     id: 5,
-    image: '/images/pubg.jpg',
-    imageBg: '/images/pubg.jpg',
+    image: '/images/pubg.webp',
+    imageBg: '/images/pubg.webp',
     title: 'PUBG',
     infoT:'Enemies Ahead',
     info: ['Rules:-', '➢ Total of 3 maps to be played', '➢ Erangle Tpp', '➢ Miramar Tpp', '➢ Erangle Fpp', 
@@ -259,8 +259,8 @@ const basic = [
   },
   {
     id: 6,
-    image: '/images/fifa.jpg',
-    imageBg: '/images/fifa.jpg',
+    image: '/images/fifa.webp',
+    imageBg: '/images/fifa.webp',
     title: 'FIFA',
     infoT:'FIFA',
     info: ['Rules:-', '➢ 1 participant per college.',
@@ -271,8 +271,8 @@ const basic = [
   },
   {
     id: 7,
-    image: '/images/carrom.jpg',
-    imageBg: '/images/carrom.jpg',
+    image: '/images/carrom.webp',
+    imageBg: '/images/carrom.webp',
     title: 'Carrom',
     infoT:'Carrom',
     info: ['Rules:-','➢ No of teams 1(1 girl+ 1 boy)', 
