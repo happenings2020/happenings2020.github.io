@@ -9,21 +9,21 @@ function BottomNav() {
   return (
     <nav className="BottomNav">
       <ul>
-        <li>
-          <a href="#events">
+        <a href="#events">
+          <li>
             <img src={list} alt="Events" /> <p>Events</p>
-          </a>
-        </li>
-        <li>
-          <a href="https://forms.gle/NAg4XCbaH5MiP3ze9">
+          </li>
+        </a>
+        <a href="https://forms.gle/NAg4XCbaH5MiP3ze9">
+          <li>
             <img src={userPlus} alt="Register" /> <p>Register</p>
-          </a>
-        </li>
-        <li>
-          <a href="#Footer">
+          </li>
+        </a>
+        <a href="#Footer">
+          <li>
             <img src={badge} alt="Contact" /> <p>Contact</p>
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </nav>
   );
