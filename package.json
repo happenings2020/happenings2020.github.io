@@ -12,7 +12,7 @@
     "react-dom": "^16.13.0",
     "react-modal": "^3.11.2",
     "react-scripts": "3.4.0",
-    "workbox": "0.0.0"
+    "workbox-cli": "^5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
